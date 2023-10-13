@@ -1,5 +1,5 @@
-import { connect } from "/Users/negi/Documents/assignment/project/src/dbConfig/dbConfig.ts";
-import User from "/Users/negi/Documents/assignment/project/src/models/userModel.js";
+import { connect } from "/src/dbConfig/dbConfig.ts";
+import User from "/src/models/userModel.js";
 import { NextRequest, NextResponse } from "next/server";
 import bcryptjs from "bcryptjs";
 import jwt from "jsonwebtoken";
