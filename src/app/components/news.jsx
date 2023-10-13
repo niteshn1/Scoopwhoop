@@ -2,23 +2,25 @@
 import React, { useEffect, useState } from "react";
 
 const News = () => {
-  let [value, setValue] = useState("");
+  let [value, setValue] = useState("nitesh");
   async function ak() {
-    let response = await fetch("https://fakenews.squirro.com/news/sport");
+    let response = await fetch(
+      "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=5eb459ae5baf4f1eb292c0fc7089015e"
+    );
     let result = await response.json();
     console.log(result);
-    console.log(result.news);
-    let p = result.news.map((a) => {
+    console.log(result.articles);
+    let p = result.articles.map((a) => {
       return (
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-          {/* <img
+          <img
             class="w-full hover:scale-110 cursor-pointer "
             src={a.urlToImage}
             alt="Bollywood"
-          /> */}
+          />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">{a.headline}</div>
-            <p class="text-gray-700 text-base">{a.abstract}</p>
+            <div class="font-bold text-xl mb-2">{a.title}</div>
+            <p class="text-gray-700 text-base">{a.description}</p>
             <button class="font-bold text-xl">Read more</button>
           </div>
           <div class="px-6 pt-4 pb-2">
