@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 
 function CarouselWithTimer({ images, interval }) {
   const [currentIndex, setCurrentIndex] = useState(0);

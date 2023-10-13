@@ -1,5 +1,5 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CarouselWithTimer from "/src/app/components/reuse/timer.jsx";
 
 function CSR1() {

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import News from "./components/news";
-import Footer from "./components/footer";
+import Footer from "/src/app/components/Footer.jsx";
 
 export default function Home() {
   return (
