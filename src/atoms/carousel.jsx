@@ -1,11 +1,11 @@
 import React from "react";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CarouselWithTimer from "/src/app/components/reuse/timer.jsx";
 
 function CSR1() {
   const images = [
     {
-      src: "./a.webp",
+      src: "https://wp.scoopwhoop.com/wp-content/uploads/2022/08/3.png",
       alt: "Image 1",
     },
     {

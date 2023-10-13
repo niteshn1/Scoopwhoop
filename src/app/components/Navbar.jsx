@@ -10,7 +10,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   // const [clicked, setClicked] = useState(false);
   const handleNav = () => {
-    setMenuOpen(menuOpen);
+    setOpen(menuOpen);
   };
   const handleClick = () => {
     setClicked(!clicked);
@@ -106,7 +106,7 @@ const Navbar = () => {
                   setOpen(!open);
                 }}
               >
-                {/* hamburger button */}
+                {/* hamburger button
                 <span
                   className={`h-1 w-full bg-yellow-500 rounded-lg transform transition duration-300 ease-in-out ${
                     open ? "rotate-180 translate-y-5" : ""
@@ -121,7 +121,7 @@ const Navbar = () => {
                   className={`h-1 w-full bg-yellow-500 rounded-lg transform transition duration-300 ease-in-out ${
                     open ? "-rotate-180 -translate-y-3" : ""
                   }`}
-                />
+                /> */}
               </div>
             </div>
             {/* <div onClick={handleNav} className="md:hidden cursor-pointer pl-24">
