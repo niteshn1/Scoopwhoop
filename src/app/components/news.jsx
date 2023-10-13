@@ -1,15 +1,15 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const News = () => 
+const News = () => {
   let [value, setValue] = useState("nitesh");
   async function ak() {
     let response = await fetch(
       "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=5eb459ae5baf4f1eb292c0fc7089015e"
     );
     let result = await response.json();
-    // console.log(result);
-    // console.log(result.articles);
+    console.log(result);
+    console.log(result.articles);
     let p = result.articles.map((a) => {
       return (
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
@@ -52,6 +52,6 @@ const News = () =>
       )}
     </div>
   );
-}
+};
 
 export default News;

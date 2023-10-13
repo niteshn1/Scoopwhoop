@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "/Users/negi/Documents/assignment/project/public/aa.png";
+
 // import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
-import CSR1 from "/Users/negi/Documents/assignment/project/src/atoms/carousel.jsx";
+import CSR1 from "/src/atoms/carousel.jsx";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
