@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-function News() {
+const News = () => 
   let [value, setValue] = useState("nitesh");
   async function ak() {
     let response = await fetch(

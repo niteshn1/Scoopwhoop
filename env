@@ -1,0 +1,3 @@
+MONGO_URI=mongodb+srv://niteshn1:nitesh040@cluster0.v6kbhjk.mongodb.net/
+TOKEN_SECRET=nextjsyoutube
+DOMAIN =http://localhost:3000
