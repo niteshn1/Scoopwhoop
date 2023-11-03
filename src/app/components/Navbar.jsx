@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Button from "/src/app/components/atoms/Button/index.jsx";
 import Search from "/src/app/components/atoms/Button/searchButton.jsx";
-import CSR1 from "/src/atoms/carousel.jsx";
+import CSR1 from "/src/app/components/atoms/carousel.jsx";
 
 const Navbar = () => {
   return (
