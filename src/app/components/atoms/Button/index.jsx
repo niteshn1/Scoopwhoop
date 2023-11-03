@@ -1,9 +1,16 @@
 import React from "react";
 
-const Button = ({ varient, color, borderColor, className, children, ...restProps }) => {
+const Button = ({
+  varient,
+  color,
+  borderColor,
+  className,
+  children,
+  ...restProps
+}) => {
   const varients = {
     rounded: "rounded-full",
-    primary: 'rounded-lg',
+    primary: "rounded-lg",
   };
 
   const borderVarients = {
@@ -11,9 +18,9 @@ const Button = ({ varient, color, borderColor, className, children, ...restProps
   };
 
   const colorVariants = {
-    white: 'bg-white',
-    blue: 'bg-blue'
-  }
+    white: "bg-white",
+    blue: "bg-blue",
+  };
 
   return (
     <button

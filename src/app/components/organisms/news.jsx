@@ -1,7 +1,4 @@
-// import { Link } from "react-router-dom";
 import newsData from "/src/utils/mockData/data.js";
-// import Button from "../../atoms/Button";
-// import Search from "../../atoms/Button/searchButton";
 import NewsCard from "src/app/components/molecules/newsCard.jsx";
 
 const Project = () => {

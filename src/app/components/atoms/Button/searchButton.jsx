@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Search() {
   return (
-    <div className="mb-3 xl:w-96">
+    <div className="mb-3 xl:w-50 mt-12">
       <div className="relative mb-4 flex w-full flex-wrap items-stretch">
         <input
           type="search"
